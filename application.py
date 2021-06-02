@@ -14,10 +14,10 @@ twilio_client = Client(account_sid, auth_token)
 
 
 connection = {
-    "host":'database-3.cyfnxgqfbjc8.us-east-1.rds.amazonaws.com',
+    "host":'database-x-xxx-x.rds.amazonaws.com',
     'username':'XXXX',
     'password':'XXXX',
-    'db':'WhatsAppBot'
+    'db':'DbName'
 }
 
 conn = pymysql.connect(connection['host'],connection['username'],connection['password'],connection['db'])
