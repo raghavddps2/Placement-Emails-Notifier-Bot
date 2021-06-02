@@ -66,8 +66,8 @@ def sms_reply():
 
 
 #User Credentials.
-userName = "raghav.ddps2@gmail.com"
-password = "raghav@123MAHESHWARI20R"
+userName = "email@gmail.com"
+password = "XXXXXXXXXXXXXXX"
 
 #Performing login 
 m = imaplib.IMAP4_SSL("imap.gmail.com", 993)
