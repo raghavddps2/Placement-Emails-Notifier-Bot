@@ -1,26 +1,22 @@
 import email
-import getpass, imaplib
-import os
-import sys
+import imaplib
 import threading
-import json
 import time
-import emoji
 import pymysql
 from twilio.twiml.messaging_response import MessagingResponse
 from flask import Flask,request
 from twilio.rest import Client
 
 
-account_sid = 'AC63307fff7d6088ec61dd563aa8974597'
-auth_token = 'a62974a507b85f085654bab6968faf7d'
+account_sid = 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+auth_token = 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 twilio_client = Client(account_sid, auth_token)
 
 
 connection = {
     "host":'database-3.cyfnxgqfbjc8.us-east-1.rds.amazonaws.com',
-    'username':'root',
-    'password':'raghavmaheshwari',
+    'username':'XXXX',
+    'password':'XXXX',
     'db':'WhatsAppBot'
 }
 
